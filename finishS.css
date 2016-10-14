@@ -1,0 +1,57 @@
+.global{
+    height: 550px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    direction: rtl;
+    background-color: #000654;
+}
+
+.label{
+    height: 17%;
+    text-align: center;
+}
+
+.result{
+    height: 52%;
+    text-align: center;
+}
+
+.control{
+    height: 30%;
+}
+
+#main-label{
+    position: relative;
+    margin: 0;
+    font-size: 40px;
+    top: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+p{
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px;
+}
+
+#start-btn{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 15px 15px 15px 15px;
+    font-size: 25px;
+    box-shadow: 2px 2px 3px black;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+#start-btn:hover{
+    background-color: #c3e1e7;
+}

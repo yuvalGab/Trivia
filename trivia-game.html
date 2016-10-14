@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>trivia-game</title>
+    <link rel="stylesheet" href="gameS.css">
+</head>
+<body>
+    <div class="global">
+        <div class="top-bar">
+            <div class="timer-box">
+                <p id="timer">10</p>
+            </div>
+            <div class="rank-box">
+                <p id="rank-text">ניקוד:</p>
+                <p id="rank">0</p>
+            </div>     
+        </div>
+        <div class="questions">
+            <div class="question">
+                <p class="questions-text" id="question-text">question</p>
+            </div>
+            <div class="answer" id="answer1">
+                <p class="questions-text" id="answer1-text">answer1</p>
+            </div>
+            <div class="answer" id="answer2">
+                <p class="questions-text" id="answer2-text">answer2</p>
+            </div>
+            <div class="answer" id="answer3">
+                <p class="questions-text" id="answer3-text">answer3</p>
+            </div>
+            <div class="answer" id="answer4">
+                <p class="questions-text" id="answer4-text">answer4</p>
+            </div>
+        </div>
+        <div class="down-bar">
+            <div class="life-box">
+                <p id="life-text">פסילות:</p>
+                <p id="life">3</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="executed.js"></script>
+    <script src="script-game.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.global{
+    height: 550px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    direction: rtl;
+    background-color: #000654;
+}
+
+.label{
+    height: 30%;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+.start{
+    height: 70%;
+    /*border: 1px solid black;*/
+}
+
+#main-label{
+    position: relative;
+    margin: 0;
+    font-size: 50px;
+    top: 80px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#start-btn{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 80px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 40px 40px 40px 40px;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px black;
+    text-shadow: 1px 1px 1px black;
+}
+
+#start-btn:hover{
+    background-color: #c3e1e7;
+}
